@@ -24,7 +24,7 @@ namespace FINAL_CASESTUDY
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/bootswatch_cerulean.css",
                       "~/Content/css/PasteBook.css",
                       "~/Content/site.css"));
         }

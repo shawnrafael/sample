@@ -129,7 +129,9 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootswatch_cerulean.css" />
     <Content Include="Content\css\PasteBook.css" />
+    <Content Include="Content\samplePicture\facebook-avatar.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

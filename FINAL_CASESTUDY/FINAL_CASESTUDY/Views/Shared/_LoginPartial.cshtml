@@ -5,26 +5,24 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        @Html.ActionLink("PasteBook", "Home", "PasteBook", new { area = "" }, new { @class = "navbar-brand" })
     </div>
     <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav">
             <li>
-                <div class="form-inline">
-                        <div class="form-group">
-                            <label class="label label-login">Username</label>
-                            <input type="text" class="form-control input-login" />
-                        </div>
-                        <div class="form-group">
-                            <label class="label label-login">Password</label>
-                            <input type="password" class="form-control input-login" />
-                        </div>
-                        <div class="form-group">
-                            <br />
-                            <input type="button" id="btnLogin" value="Login" class="btn btn-default btn-sm" />
-                        </div>                        
+                <div id="searchPart">
+                    <div class="inner-addon left-addon">
+                        <i class="glyphicon glyphicon-search"></i>
+                        <input type="text" class="form-control input-sm" id="txtSearch" />
+                    </div>
                 </div>                
             </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+            <li>@Html.ActionLink("Profile", "About", "Home")</li>
+            <li>@Html.ActionLink("Notification", "About", "Home")</li>
+            <li>@Html.ActionLink("Logout", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
         </ul>
     </div>
 </div>

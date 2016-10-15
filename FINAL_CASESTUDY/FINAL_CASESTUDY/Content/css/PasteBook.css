@@ -1,5 +1,5 @@
 ﻿#renderedPart{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .navbar{
     padding: 5px 20px 10px 10px;
@@ -12,9 +12,70 @@
     font-size: 15px;
     font-weight: 100;
     padding: 1px 10px 10px 10px;
-    height: 25px;
+    height: 26px;
 }
 .input-login{
     height: 25px;
     padding: 0px 0px 0px 10px;
 }
+ /*for the search bar - start*/
+.inner-addon {
+  position: relative;
+}
+
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 5px 0px 0px 10px;
+  pointer-events: none;
+}
+
+.left-addon .glyphicon  { 
+    left:  0px;
+}
+.left-addon input  {
+    padding-left:  30px; 
+    width: 1000px;
+}
+
+#searchPart{
+    margin-top: 10px;
+}
+/*for the search bar - end*/
+
+/*for the post part - start */
+
+textarea{
+    resize: none;
+}
+#homeProfilePic{
+    position: absolute;
+    margin: auto;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+}
+#imageContainer{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #dae0ea;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+}
+#profileName, #editUser, #userFriend{
+    margin-left: 10px;
+}
+
+#posterName{
+    font-size: 15px;
+    font-weight: 400;
+}
+#postDate{
+    font-size: 11px;
+    color: #90949c;
+}
+#postContent{
+    font-size: 14px;
+}
+/*for the post part - end*/
