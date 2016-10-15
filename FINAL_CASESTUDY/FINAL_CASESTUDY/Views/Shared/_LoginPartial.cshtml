@@ -9,17 +9,21 @@
     </div>
     <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-            <li class="listLogin">
-                @Html.Label("Username:", new { @class = "label"})
-                @Html.TextBox("username", "", new { id = "txtUsername", @class = "form-control input-sm" })
-            </li>
-            <li class="listLogin">
-                @Html.Label("Password:", new { @class = "label" })
-                @Html.TextBox("password", "", new { id = "txtPassword", type = "password", @class = "form-control input-sm" })
-            </li>
-            <li class="listLogin">
-                <br />
-                <input type="button" value="Login" id="btnLogin" class="btn btn-sm btn-default" />
+            <li>
+                <div class="form-inline">
+                        <div class="form-group">
+                            <label class="label label-login">Username</label>
+                            <input type="text" class="form-control input-login" />
+                        </div>
+                        <div class="form-group">
+                            <label class="label label-login">Password</label>
+                            <input type="password" class="form-control input-login" />
+                        </div>
+                        <div class="form-group">
+                            <br />
+                            <input type="button" id="btnLogin" value="Login" class="btn btn-default btn-sm" />
+                        </div>                        
+                </div>                
             </li>
         </ul>
     </div>

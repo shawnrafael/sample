@@ -1,14 +1,20 @@
-﻿#txtSearch{
-    margin-left: 20px; 
-    margin-top: 10px;
-}
-#txtUsername,#txtPassword{
-    margin-bottom: 10px;
-    width: 200px
-}
-.listLogin{
-    padding-left: 10px;
-}
-#renderedPart{
+﻿#renderedPart{
     margin-top: 20px;
+}
+.navbar{
+    padding: 5px 20px 10px 10px;
+}
+.label-login{
+    font-size: 13px;
+    font-weight: 100;
+}
+#btnLogin{
+    font-size: 15px;
+    font-weight: 100;
+    padding: 1px 10px 10px 10px;
+    height: 25px;
+}
+.input-login{
+    height: 25px;
+    padding: 0px 0px 0px 10px;
 }
