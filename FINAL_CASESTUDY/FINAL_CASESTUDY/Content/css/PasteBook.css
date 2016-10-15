@@ -1,0 +1,14 @@
+﻿#txtSearch{
+    margin-left: 20px; 
+    margin-top: 10px;
+}
+#txtUsername,#txtPassword{
+    margin-bottom: 10px;
+    width: 200px
+}
+.listLogin{
+    padding-left: 10px;
+}
+#renderedPart{
+    margin-top: 20px;
+}
