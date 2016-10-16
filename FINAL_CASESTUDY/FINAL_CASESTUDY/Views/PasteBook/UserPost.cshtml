@@ -6,19 +6,11 @@
 
         <div>
             @Html.ActionLink("Shawn Aragon", "UserProfile", "PasteBook", new { id = "homeProfileName" })<br />
-            @Html.ActionLink("Fiends", "Friends", "PasteBook",new { id = "userHomeFriend" })
+            @Html.ActionLink("Fiends", "Friends", "PasteBook", new { id = "userHomeFriend" })
         </div>
     </div>
 </div>
-<div class="col-sm-8">   
-    <div class="well">
-        <div class="container-fluid">
-            <textarea class="form-control" rows="3" placeholder="What's on your mind?"></textarea>                
-            <hr />
-            <input type="button" id="postBtn" value="Post" class="btn btn-primary pull-right" />
-        </div>
-    </div>
-
+<div class="col-sm-8">
     <div class="well">
         <div class="container-fluid">
             <p id="posterName">Shawn Aragon</p>
@@ -31,8 +23,9 @@
             <hr />
             <input type="button" id="commentBtn" value="Add comment" class="btn btn-primary pull-right" />
         </div>
-    </div>  
+    </div>
 </div>
 <div class="col-sm-2">
 </div>
+
 

@@ -22,5 +22,25 @@ namespace FINAL_CASESTUDY.Controllers
         {
             return View();
         }
+
+        public ActionResult UserProfile()
+        {
+            return View();
+        }
+
+        public ActionResult Friends()
+        {
+            return View();
+        }
+
+        public ActionResult Search()
+        {
+            return View();
+        }
+
+        public ActionResult UserPost()
+        {
+            return View();
+        }
     }
 }
